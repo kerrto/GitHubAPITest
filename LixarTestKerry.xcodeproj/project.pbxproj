@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2B6EFA1DB44582007BB30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6EF91DB44582007BB30E /* AppDelegate.swift */; };
+		AB2B6EFC1DB44582007BB30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6EFB1DB44582007BB30E /* ViewController.swift */; };
+		AB2B6EFF1DB44582007BB30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B6EFD1DB44582007BB30E /* Main.storyboard */; };
+		AB2B6F011DB44582007BB30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2B6F001DB44582007BB30E /* Assets.xcassets */; };
+		AB2B6F041DB44582007BB30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B6F021DB44582007BB30E /* LaunchScreen.storyboard */; };
+		AB2B6F0F1DB44582007BB30E /* LixarTestKerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F0E1DB44582007BB30E /* LixarTestKerryTests.swift */; };
+		AB2B6F1A1DB44582007BB30E /* LixarTestKerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F191DB44582007BB30E /* LixarTestKerryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB2B6F0B1DB44582007BB30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2B6EEE1DB44582007BB30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2B6EF51DB44582007BB30E;
+			remoteInfo = LixarTestKerry;
+		};
+		AB2B6F161DB44582007BB30E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB2B6EEE1DB44582007BB30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB2B6EF51DB44582007BB30E;
+			remoteInfo = LixarTestKerry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB2B6EF61DB44582007BB30E /* LixarTestKerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LixarTestKerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B6EF91DB44582007BB30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB2B6EFB1DB44582007BB30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB2B6EFE1DB44582007BB30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB2B6F001DB44582007BB30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2B6F031DB44582007BB30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2B6F051DB44582007BB30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2B6F0A1DB44582007BB30E /* LixarTestKerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixarTestKerryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B6F0E1DB44582007BB30E /* LixarTestKerryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LixarTestKerryTests.swift; sourceTree = "<group>"; };
+		AB2B6F101DB44582007BB30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2B6F151DB44582007BB30E /* LixarTestKerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixarTestKerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2B6F191DB44582007BB30E /* LixarTestKerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LixarTestKerryUITests.swift; sourceTree = "<group>"; };
+		AB2B6F1B1DB44582007BB30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2B6EF31DB44582007BB30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F071DB44582007BB30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F121DB44582007BB30E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB2B6EED1DB44582007BB30E = {
+			isa = PBXGroup;
+			children = (
+				AB2B6EF81DB44582007BB30E /* LixarTestKerry */,
+				AB2B6F0D1DB44582007BB30E /* LixarTestKerryTests */,
+				AB2B6F181DB44582007BB30E /* LixarTestKerryUITests */,
+				AB2B6EF71DB44582007BB30E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2B6EF71DB44582007BB30E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B6EF61DB44582007BB30E /* LixarTestKerry.app */,
+				AB2B6F0A1DB44582007BB30E /* LixarTestKerryTests.xctest */,
+				AB2B6F151DB44582007BB30E /* LixarTestKerryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2B6EF81DB44582007BB30E /* LixarTestKerry */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B6EF91DB44582007BB30E /* AppDelegate.swift */,
+				AB2B6EFB1DB44582007BB30E /* ViewController.swift */,
+				AB2B6EFD1DB44582007BB30E /* Main.storyboard */,
+				AB2B6F001DB44582007BB30E /* Assets.xcassets */,
+				AB2B6F021DB44582007BB30E /* LaunchScreen.storyboard */,
+				AB2B6F051DB44582007BB30E /* Info.plist */,
+			);
+			path = LixarTestKerry;
+			sourceTree = "<group>";
+		};
+		AB2B6F0D1DB44582007BB30E /* LixarTestKerryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B6F0E1DB44582007BB30E /* LixarTestKerryTests.swift */,
+				AB2B6F101DB44582007BB30E /* Info.plist */,
+			);
+			path = LixarTestKerryTests;
+			sourceTree = "<group>";
+		};
+		AB2B6F181DB44582007BB30E /* LixarTestKerryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB2B6F191DB44582007BB30E /* LixarTestKerryUITests.swift */,
+				AB2B6F1B1DB44582007BB30E /* Info.plist */,
+			);
+			path = LixarTestKerryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2B6EF51DB44582007BB30E /* LixarTestKerry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B6F1E1DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerry" */;
+			buildPhases = (
+				AB2B6EF21DB44582007BB30E /* Sources */,
+				AB2B6EF31DB44582007BB30E /* Frameworks */,
+				AB2B6EF41DB44582007BB30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LixarTestKerry;
+			productName = LixarTestKerry;
+			productReference = AB2B6EF61DB44582007BB30E /* LixarTestKerry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB2B6F091DB44582007BB30E /* LixarTestKerryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B6F211DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryTests" */;
+			buildPhases = (
+				AB2B6F061DB44582007BB30E /* Sources */,
+				AB2B6F071DB44582007BB30E /* Frameworks */,
+				AB2B6F081DB44582007BB30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2B6F0C1DB44582007BB30E /* PBXTargetDependency */,
+			);
+			name = LixarTestKerryTests;
+			productName = LixarTestKerryTests;
+			productReference = AB2B6F0A1DB44582007BB30E /* LixarTestKerryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB2B6F141DB44582007BB30E /* LixarTestKerryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB2B6F241DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryUITests" */;
+			buildPhases = (
+				AB2B6F111DB44582007BB30E /* Sources */,
+				AB2B6F121DB44582007BB30E /* Frameworks */,
+				AB2B6F131DB44582007BB30E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2B6F171DB44582007BB30E /* PBXTargetDependency */,
+			);
+			name = LixarTestKerryUITests;
+			productName = LixarTestKerryUITests;
+			productReference = AB2B6F151DB44582007BB30E /* LixarTestKerryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB2B6EEE1DB44582007BB30E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kerry Toonen";
+				TargetAttributes = {
+					AB2B6EF51DB44582007BB30E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AB2B6F091DB44582007BB30E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AB2B6EF51DB44582007BB30E;
+					};
+					AB2B6F141DB44582007BB30E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AB2B6EF51DB44582007BB30E;
+					};
+				};
+			};
+			buildConfigurationList = AB2B6EF11DB44582007BB30E /* Build configuration list for PBXProject "LixarTestKerry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB2B6EED1DB44582007BB30E;
+			productRefGroup = AB2B6EF71DB44582007BB30E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2B6EF51DB44582007BB30E /* LixarTestKerry */,
+				AB2B6F091DB44582007BB30E /* LixarTestKerryTests */,
+				AB2B6F141DB44582007BB30E /* LixarTestKerryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2B6EF41DB44582007BB30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B6F041DB44582007BB30E /* LaunchScreen.storyboard in Resources */,
+				AB2B6F011DB44582007BB30E /* Assets.xcassets in Resources */,
+				AB2B6EFF1DB44582007BB30E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F081DB44582007BB30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F131DB44582007BB30E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2B6EF21DB44582007BB30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B6EFC1DB44582007BB30E /* ViewController.swift in Sources */,
+				AB2B6EFA1DB44582007BB30E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F061DB44582007BB30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B6F0F1DB44582007BB30E /* LixarTestKerryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB2B6F111DB44582007BB30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2B6F1A1DB44582007BB30E /* LixarTestKerryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB2B6F0C1DB44582007BB30E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2B6EF51DB44582007BB30E /* LixarTestKerry */;
+			targetProxy = AB2B6F0B1DB44582007BB30E /* PBXContainerItemProxy */;
+		};
+		AB2B6F171DB44582007BB30E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB2B6EF51DB44582007BB30E /* LixarTestKerry */;
+			targetProxy = AB2B6F161DB44582007BB30E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB2B6EFD1DB44582007BB30E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2B6EFE1DB44582007BB30E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB2B6F021DB44582007BB30E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2B6F031DB44582007BB30E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2B6F1C1DB44582007BB30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB2B6F1D1DB44582007BB30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB2B6F1F1DB44582007BB30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LixarTestKerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB2B6F201DB44582007BB30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LixarTestKerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB2B6F221DB44582007BB30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LixarTestKerryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LixarTestKerry.app/LixarTestKerry";
+			};
+			name = Debug;
+		};
+		AB2B6F231DB44582007BB30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LixarTestKerryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LixarTestKerry.app/LixarTestKerry";
+			};
+			name = Release;
+		};
+		AB2B6F251DB44582007BB30E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LixarTestKerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LixarTestKerry;
+			};
+			name = Debug;
+		};
+		AB2B6F261DB44582007BB30E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LixarTestKerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LixarTestKerry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB2B6EF11DB44582007BB30E /* Build configuration list for PBXProject "LixarTestKerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B6F1C1DB44582007BB30E /* Debug */,
+				AB2B6F1D1DB44582007BB30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB2B6F1E1DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B6F1F1DB44582007BB30E /* Debug */,
+				AB2B6F201DB44582007BB30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB2B6F211DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B6F221DB44582007BB30E /* Debug */,
+				AB2B6F231DB44582007BB30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB2B6F241DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B6F251DB44582007BB30E /* Debug */,
+				AB2B6F261DB44582007BB30E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB2B6EEE1DB44582007BB30E /* Project object */;
+}
