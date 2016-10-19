@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B9E46609E1F9C325118BC1C /* Pods_LixarTestKerry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213E1926531B20703308CBE6 /* Pods_LixarTestKerry.framework */; };
+		AB164FAC1DB59F90002CA5A4 /* Markdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB164FAB1DB59F90002CA5A4 /* Markdown.swift */; };
 		AB2B6EFA1DB44582007BB30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6EF91DB44582007BB30E /* AppDelegate.swift */; };
 		AB2B6EFC1DB44582007BB30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6EFB1DB44582007BB30E /* ViewController.swift */; };
 		AB2B6EFF1DB44582007BB30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B6EFD1DB44582007BB30E /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		AB2B6F041DB44582007BB30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2B6F021DB44582007BB30E /* LaunchScreen.storyboard */; };
 		AB2B6F0F1DB44582007BB30E /* LixarTestKerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F0E1DB44582007BB30E /* LixarTestKerryTests.swift */; };
 		AB2B6F1A1DB44582007BB30E /* LixarTestKerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F191DB44582007BB30E /* LixarTestKerryUITests.swift */; };
+		AB2B6F281DB4459E007BB30E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F271DB4459E007BB30E /* Models.swift */; };
+		AB2B6F2A1DB445D1007BB30E /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2B6F291DB445D1007BB30E /* APIRequestManager.swift */; };
+		AB7B4EE11DB71072006E687A /* IssuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B4EE01DB71072006E687A /* IssuesTableViewController.swift */; };
+		AB7B4EE31DB711F6006E687A /* IssueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7B4EE21DB711F6006E687A /* IssueCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		213E1926531B20703308CBE6 /* Pods_LixarTestKerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LixarTestKerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ACA95261B1EAD911B765F79 /* Pods-LixarTestKerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LixarTestKerry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LixarTestKerry/Pods-LixarTestKerry.debug.xcconfig"; sourceTree = "<group>"; };
+		AB164FAB1DB59F90002CA5A4 /* Markdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markdown.swift; sourceTree = "<group>"; };
 		AB2B6EF61DB44582007BB30E /* LixarTestKerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LixarTestKerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2B6EF91DB44582007BB30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2B6EFB1DB44582007BB30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		AB2B6F151DB44582007BB30E /* LixarTestKerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LixarTestKerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2B6F191DB44582007BB30E /* LixarTestKerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LixarTestKerryUITests.swift; sourceTree = "<group>"; };
 		AB2B6F1B1DB44582007BB30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2B6F271DB4459E007BB30E /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AB2B6F291DB445D1007BB30E /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		AB7B4EE01DB71072006E687A /* IssuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesTableViewController.swift; sourceTree = "<group>"; };
+		AB7B4EE21DB711F6006E687A /* IssueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueCell.swift; sourceTree = "<group>"; };
+		C21131D6652700136C297DFB /* Pods-LixarTestKerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LixarTestKerry.release.xcconfig"; path = "Pods/Target Support Files/Pods-LixarTestKerry/Pods-LixarTestKerry.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B9E46609E1F9C325118BC1C /* Pods_LixarTestKerry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01AF65B534A9FFB13CC7E260 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2ACA95261B1EAD911B765F79 /* Pods-LixarTestKerry.debug.xcconfig */,
+				C21131D6652700136C297DFB /* Pods-LixarTestKerry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0652BE9348709AAB2D79535F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				213E1926531B20703308CBE6 /* Pods_LixarTestKerry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB2B6EED1DB44582007BB30E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,9 @@
 				AB2B6F0D1DB44582007BB30E /* LixarTestKerryTests */,
 				AB2B6F181DB44582007BB30E /* LixarTestKerryUITests */,
 				AB2B6EF71DB44582007BB30E /* Products */,
+				AB164FAB1DB59F90002CA5A4 /* Markdown.swift */,
+				01AF65B534A9FFB13CC7E260 /* Pods */,
+				0652BE9348709AAB2D79535F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +134,10 @@
 			children = (
 				AB2B6EF91DB44582007BB30E /* AppDelegate.swift */,
 				AB2B6EFB1DB44582007BB30E /* ViewController.swift */,
+				AB7B4EE01DB71072006E687A /* IssuesTableViewController.swift */,
+				AB7B4EE21DB711F6006E687A /* IssueCell.swift */,
+				AB2B6F271DB4459E007BB30E /* Models.swift */,
+				AB2B6F291DB445D1007BB30E /* APIRequestManager.swift */,
 				AB2B6EFD1DB44582007BB30E /* Main.storyboard */,
 				AB2B6F001DB44582007BB30E /* Assets.xcassets */,
 				AB2B6F021DB44582007BB30E /* LaunchScreen.storyboard */,
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2B6F1E1DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerry" */;
 			buildPhases = (
+				123C495F62C058AC2608CA65 /* 📦 Check Pods Manifest.lock */,
 				AB2B6EF21DB44582007BB30E /* Sources */,
 				AB2B6EF31DB44582007BB30E /* Frameworks */,
 				AB2B6EF41DB44582007BB30E /* Resources */,
+				9DF2B5E3F07AE4797E74AC51 /* 📦 Embed Pods Frameworks */,
+				EAD2B1B0215543737A8097BD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +293,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		123C495F62C058AC2608CA65 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DF2B5E3F07AE4797E74AC51 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LixarTestKerry/Pods-LixarTestKerry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAD2B1B0215543737A8097BD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LixarTestKerry/Pods-LixarTestKerry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB2B6EF21DB44582007BB30E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2B6F2A1DB445D1007BB30E /* APIRequestManager.swift in Sources */,
+				AB7B4EE11DB71072006E687A /* IssuesTableViewController.swift in Sources */,
+				AB164FAC1DB59F90002CA5A4 /* Markdown.swift in Sources */,
 				AB2B6EFC1DB44582007BB30E /* ViewController.swift in Sources */,
+				AB2B6F281DB4459E007BB30E /* Models.swift in Sources */,
 				AB2B6EFA1DB44582007BB30E /* AppDelegate.swift in Sources */,
+				AB7B4EE31DB711F6006E687A /* IssueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +494,7 @@
 		};
 		AB2B6F1F1DB44582007BB30E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ACA95261B1EAD911B765F79 /* Pods-LixarTestKerry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LixarTestKerry/Info.plist;
@@ -410,6 +506,7 @@
 		};
 		AB2B6F201DB44582007BB30E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21131D6652700136C297DFB /* Pods-LixarTestKerry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LixarTestKerry/Info.plist;
@@ -484,6 +581,7 @@
 				AB2B6F201DB44582007BB30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2B6F211DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +590,7 @@
 				AB2B6F231DB44582007BB30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2B6F241DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerryUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +599,7 @@
 				AB2B6F261DB44582007BB30E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
