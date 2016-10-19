@@ -97,8 +97,8 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="p6S-fM-bq4"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="issuesLabel" destination="jjW-BH-mpk" id="a5g-0l-sOM"/>
-                        <outlet property="newLabel" destination="TUA-fW-43K" id="Ilx-Cc-NUi"/>
+                        <outlet property="issuesButton" destination="jjW-BH-mpk" id="rES-9N-n8b"/>
+                        <outlet property="readmeLabel" destination="TUA-fW-43K" id="8JH-Yd-zBe"/>
                         <outlet property="starsLabel" destination="Ftx-6Q-rEk" id="bcN-pv-02W"/>
                         <outlet property="titleLabel" destination="gSf-gc-DcK" id="qDa-Xh-gqD"/>
                         <segue destination="AGQ-Mq-Rz0" kind="show" identifier="toIssuesVC" id="nzf-DH-46Z"/>

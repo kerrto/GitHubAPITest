@@ -13,9 +13,11 @@ class ViewController: UIViewController, RepoDelegate, IssuesDelegate {
     @IBOutlet weak var titleLabel: UILabel!
    
     @IBOutlet weak var starsLabel: UILabel!
-    @IBOutlet weak var newLabel: UILabel!
+    @IBOutlet weak var readmeLabel: UILabel!
    
-    @IBOutlet weak var issuesLabel: UIButton!
+    
+    @IBOutlet weak var issuesButton: UIButton!
+    
     
     var issuesLink = ""
     
@@ -30,6 +32,10 @@ class ViewController: UIViewController, RepoDelegate, IssuesDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleLabel.text = "Loading..."
+        starsLabel.hidden = true
+        readmeLabel.hidden = true
+        issuesButton.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
         manager.issuesDelegate = self
         manager.repoDelegate = self
@@ -50,9 +56,14 @@ class ViewController: UIViewController, RepoDelegate, IssuesDelegate {
            readme?.removeRange(startRange.startIndex..<(readme?.endIndex)!)
         }
         
-        self.newLabel.text = readme
+        self.readmeLabel.text = readme
         self.starsLabel.text = "Stars: \(repo.stars!)"
         self.titleLabel.text = repo.title
+        
+        self.readmeLabel.hidden = false
+        self.starsLabel.hidden = false
+        self.titleLabel.hidden = false
+        self.issuesButton.hidden = false
         
     }
     
