@@ -171,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2B6F1E1DB44582007BB30E /* Build configuration list for PBXNativeTarget "LixarTestKerry" */;
 			buildPhases = (
-				123C495F62C058AC2608CA65 /* 📦 Check Pods Manifest.lock */,
+				123C495F62C058AC2608CA65 /* [CP] Check Pods Manifest.lock */,
 				AB2B6EF21DB44582007BB30E /* Sources */,
 				AB2B6EF31DB44582007BB30E /* Frameworks */,
 				AB2B6EF41DB44582007BB30E /* Resources */,
-				9DF2B5E3F07AE4797E74AC51 /* 📦 Embed Pods Frameworks */,
-				EAD2B1B0215543737A8097BD /* 📦 Copy Pods Resources */,
+				9DF2B5E3F07AE4797E74AC51 /* [CP] Embed Pods Frameworks */,
+				EAD2B1B0215543737A8097BD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,18 +230,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Kerry Toonen";
 				TargetAttributes = {
 					AB2B6EF51DB44582007BB30E = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 9QSWA6BJVQ;
+						LastSwiftMigration = 0800;
 					};
 					AB2B6F091DB44582007BB30E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = AB2B6EF51DB44582007BB30E;
 					};
 					AB2B6F141DB44582007BB30E = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = AB2B6EF51DB44582007BB30E;
 					};
 				};
@@ -294,29 +298,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		123C495F62C058AC2608CA65 /* 📦 Check Pods Manifest.lock */ = {
+		123C495F62C058AC2608CA65 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		9DF2B5E3F07AE4797E74AC51 /* 📦 Embed Pods Frameworks */ = {
+		9DF2B5E3F07AE4797E74AC51 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,14 +328,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LixarTestKerry/Pods-LixarTestKerry-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EAD2B1B0215543737A8097BD /* 📦 Copy Pods Resources */ = {
+		EAD2B1B0215543737A8097BD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,8 +425,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -467,8 +473,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -487,6 +495,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -496,11 +505,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2ACA95261B1EAD911B765F79 /* Pods-LixarTestKerry.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QSWA6BJVQ;
 				INFOPLIST_FILE = LixarTestKerry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -508,11 +520,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C21131D6652700136C297DFB /* Pods-LixarTestKerry.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9QSWA6BJVQ;
 				INFOPLIST_FILE = LixarTestKerry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerry;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -524,6 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LixarTestKerry.app/LixarTestKerry";
 			};
 			name = Debug;
@@ -536,6 +552,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LixarTestKerry.app/LixarTestKerry";
 			};
 			name = Release;
@@ -547,6 +564,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = LixarTestKerry;
 			};
 			name = Debug;
@@ -558,6 +576,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KerryToonen.LixarTestKerryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = LixarTestKerry;
 			};
 			name = Release;

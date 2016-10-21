@@ -7,7 +7,7 @@
 //
 
 import Alamofire
-import SwiftyMarkdown
+
 
 
 protocol RepoDelegate {
